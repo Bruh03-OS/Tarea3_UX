@@ -2,11 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +30,37 @@
   to {
     transform: rotate(360deg);
   }
+}
+body {
+  background-color: black;
+  color: #282c34;
+}
+.contenedor-de-todo {
+  background-color: #282c34;
+  color: #61dafb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.contenido-lista {
+  color: aliceblue;
+  padding: 20px;
+  max-height: 150px;
+  overflow-y: auto;
+}
+.botones-de-borrado {
+  color: blue;
+  margin-top: 10px;
+}
+.bb1 {
+  border-color: black;
+}
+.alerta {
+ color: aliceblue;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+  text-align: center;
 }
